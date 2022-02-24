@@ -43,7 +43,10 @@ A collection do postman atualizada pode ser importada clicando no botão abaixo:
 - Postman - Ferramenta para testes nas requisições
 - Lombok - Framework para abstração e melhora na legibilidade do código
 - ModelMapper - Facilitar o mapeamento de objetos e diminuir código boilerplate
-
+- JUnit - Plataforma usada como base para lançar estruturas de teste na JVM
+- Mockito - Estrutura de simulação para testes de unidade em Java
+- QueryDSL - Consultas seguras no Banco de dados
+- Docker - Orquestrador de Containers
 
 
 <h1 id="desenvolvedor">
@@ -56,3 +59,9 @@ A collection do postman atualizada pode ser importada clicando no botão abaixo:
     <td align="center"><a href="https://github.com/oneyottabyte"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/oneyottabyte" width="100px;" alt=""/><br /><sub><b>Dorian Vieira</b></sub></a><br /><a href="https://github.com/oneyottabyte" title="Dorian Vieira"></a></td>
   </tr>
 </table>
+
+<h1 id="Agradecimentos">
+<img height="30" src="https://img.icons8.com/color/48/000000/devpost.png"/>
+  Agradecimentos
+</h1>
+<p text-align="justify">Caio Costa - Autor do Livro Spring Boot: Microsserviços na prática</p>
