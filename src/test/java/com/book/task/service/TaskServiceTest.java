@@ -1,8 +1,5 @@
 package com.book.task.service;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
@@ -21,6 +18,9 @@ import org.springframework.data.domain.Sort;
 import com.book.task.entity.Task;
 import com.book.task.mock.TaskMock;
 import com.book.task.repository.TaskRepository;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @ExtendWith(MockitoExtension.class)
 @RunWith(JUnitPlatform.class)

@@ -26,7 +26,7 @@ public class TaskMock {
 		taskList.add(task1);
 		taskList.add(task2);
 		
-		Page<Task> pagedResponse = new PageImpl<Task>(taskList);
+		Page<Task> pagedResponse = new PageImpl(taskList);
 		return pagedResponse;
 	}
 }
