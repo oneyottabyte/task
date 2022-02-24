@@ -30,7 +30,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @RepositoryRestController
-@RequestMapping("/todo")
+@RequestMapping("/todo/")
 @RequiredArgsConstructor
 public class TaskController {
 	
