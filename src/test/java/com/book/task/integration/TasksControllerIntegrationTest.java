@@ -18,7 +18,8 @@ import io.restassured.RestAssured;
 
 @ExtendWith(MockitoExtension.class)
 @RunWith(JUnitPlatform.class)
-@SpringBootTest(classes = {TaskApplication.class},  webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT) @ActiveProfiles("test")
+@SpringBootTest(classes = {TaskApplication.class},  webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT) 
+@ActiveProfiles("test")
 public class TasksControllerIntegrationTest {
 	@Before
 	public void setup() {
